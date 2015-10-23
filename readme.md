@@ -3,15 +3,11 @@
 
 Hi, this is a scaffold generator for Laravel 5.
 
-
-
 ## Usage
 
 ### Step 1: Install Through Composer
 
-
 Setup your composer.json
-
 
 ```
   "require": {
@@ -56,7 +52,6 @@ Since we only want this on dev go to `app/Providers/AppServiceProvider.php`
 You're all set. Run `php artisan` from the console, and you'll see the new commands `make:scaffold`.
 
 ## Examples
-
 
 ```
 php artisan make:scaffold Tweet --schema="title:string:default('Tweet #1'), body:text"
